@@ -1,0 +1,26 @@
+{
+  "name": "fast-array-join",
+  "version": "1.0.0",
+  "description": "61% faster array join for JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "benchmark": "node benchmark/native-vs-js.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "rome format . --write",
+    "format:ci": "rome ci ."
+  },
+  "keywords": [
+    "fast array join",
+    "array.prototype.join"
+  ],
+  "author": "Yagiz Nizipli <yagiz@nizipli.com>",
+  "license": "MIT",
+  "repository": {
+    "url": "git+https://github.com/anonrig/fast-array-join.git",
+    "type": "git"
+  },
+  "devDependencies": {
+    "cronometro": "^1.1.5",
+    "rome": "^10.0.1"
+  }
+}
