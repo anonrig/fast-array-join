@@ -4,8 +4,8 @@
   "description": "61% faster array join for JavaScript",
   "main": "index.js",
   "scripts": {
-    "benchmark": "node benchmark/native-vs-js.mjs",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "benchmark": "node benchmark/native-vs-js-empty.mjs && node benchmark/native-vs-js-single.mjs && node benchmark/native-vs-js-short.mjs && node benchmark/native-vs-js-large.mjs",
+    "test": "node test.js",
     "format": "rome format . --write",
     "format:ci": "rome ci ."
   },

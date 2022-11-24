@@ -1,4 +1,6 @@
-function join(output, separator) {
+"use strict";
+
+function join(output, separator = ",") {
   let str = "";
   if (output.length !== 0) {
     const lastIndex = output.length - 1;
@@ -13,3 +15,5 @@ function join(output, separator) {
 }
 
 module.exports = join;
+module.exports.default = join;
+module.exports.join = join;
