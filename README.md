@@ -1,6 +1,6 @@
 # fast-array-join
 
-[![NPM version](https://img.shields.io/npm/v/fast-array-join.svg?style=flat)](https://www.npmjs.com/package/fast-querystring)
+[![NPM version](https://img.shields.io/npm/v/fast-array-join.svg?style=flat)](https://www.npmjs.com/package/fast-array-join)
 
 `fast-array-join` is a %61 faster array join function compared to `Array.prototype.join`.
 
